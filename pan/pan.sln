@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pan", "pan\pan.csproj", "{1F37E46F-C9F3-48D8-8433-8846AE8A81E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pan.Common", "Pan.Common\Pan.Common.csproj", "{A1244564-5FAA-4B94-A9AE-F975E6D6BC81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pan.Common", "Pan.Common\Pan.Common.csproj", "{A1244564-5FAA-4B94-A9AE-F975E6D6BC81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pan.Domain", "Pan.Domain\Pan.Domain.csproj", "{384BBA4C-DFFC-42DE-955C-EDCC6FC6EF9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pan.Domain", "Pan.Domain\Pan.Domain.csproj", "{384BBA4C-DFFC-42DE-955C-EDCC6FC6EF9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pan.Infrastructure", "Pan.Infrastructure\Pan.Infrastructure.csproj", "{DB9205A3-6D70-4D16-AE34-D17729C01165}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pan.Infrastructure", "Pan.Infrastructure\Pan.Infrastructure.csproj", "{DB9205A3-6D70-4D16-AE34-D17729C01165}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pan.web", "pan.web\pan.web.csproj", "{222BF77E-ADF5-4EA1-A92F-7FE6CCA9C8C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1F37E46F-C9F3-48D8-8433-8846AE8A81E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1F37E46F-C9F3-48D8-8433-8846AE8A81E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1F37E46F-C9F3-48D8-8433-8846AE8A81E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1F37E46F-C9F3-48D8-8433-8846AE8A81E2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A1244564-5FAA-4B94-A9AE-F975E6D6BC81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A1244564-5FAA-4B94-A9AE-F975E6D6BC81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1244564-5FAA-4B94-A9AE-F975E6D6BC81}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{DB9205A3-6D70-4D16-AE34-D17729C01165}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB9205A3-6D70-4D16-AE34-D17729C01165}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB9205A3-6D70-4D16-AE34-D17729C01165}.Release|Any CPU.Build.0 = Release|Any CPU
+		{222BF77E-ADF5-4EA1-A92F-7FE6CCA9C8C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{222BF77E-ADF5-4EA1-A92F-7FE6CCA9C8C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{222BF77E-ADF5-4EA1-A92F-7FE6CCA9C8C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{222BF77E-ADF5-4EA1-A92F-7FE6CCA9C8C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
