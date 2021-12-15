@@ -25,15 +25,15 @@ namespace Pan.Infrastructure.Context
 
 		void UpdateRange(IEnumerable<TEntity> entities);
 
-		//void Delete(TEntity entity);
+        void Delete(TEntity entity);
 
-		// void DeleteRange(IEnumerable<TEntity> entities);
+        void DeleteRange(IEnumerable<TEntity> entities);
 
-		//void HardDelete(TEntity entity);
+        void HardDelete(TEntity entity);
 
-		//void HardDeleteRange(IEnumerable<TEntity> entities);
+        void HardDeleteRange(IEnumerable<TEntity> entities);
 
-		Task SaveChangesAsync();
+        Task SaveChangesAsync();
 	}
 
 	public interface IRepository<TEntity, TPrimaryKey> : IRepository<TEntity> where TEntity : BaseEntityCore<TPrimaryKey>

@@ -1,0 +1,12 @@
+D:\Hongbo\Code\Pan\pan_\pan\Pan.Common\bin\Debug\net5.0\Pan.Common.deps.json
+D:\Hongbo\Code\Pan\pan_\pan\Pan.Common\bin\Debug\net5.0\Pan.Common.dll
+D:\Hongbo\Code\Pan\pan_\pan\Pan.Common\bin\Debug\net5.0\ref\Pan.Common.dll
+D:\Hongbo\Code\Pan\pan_\pan\Pan.Common\bin\Debug\net5.0\Pan.Common.pdb
+D:\Hongbo\Code\Pan\pan_\pan\Pan.Common\obj\Debug\net5.0\Pan.Common.csproj.AssemblyReference.cache
+D:\Hongbo\Code\Pan\pan_\pan\Pan.Common\obj\Debug\net5.0\Pan.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Hongbo\Code\Pan\pan_\pan\Pan.Common\obj\Debug\net5.0\Pan.Common.AssemblyInfoInputs.cache
+D:\Hongbo\Code\Pan\pan_\pan\Pan.Common\obj\Debug\net5.0\Pan.Common.AssemblyInfo.cs
+D:\Hongbo\Code\Pan\pan_\pan\Pan.Common\obj\Debug\net5.0\Pan.Common.csproj.CoreCompileInputs.cache
+D:\Hongbo\Code\Pan\pan_\pan\Pan.Common\obj\Debug\net5.0\Pan.Common.dll
+D:\Hongbo\Code\Pan\pan_\pan\Pan.Common\obj\Debug\net5.0\ref\Pan.Common.dll
+D:\Hongbo\Code\Pan\pan_\pan\Pan.Common\obj\Debug\net5.0\Pan.Common.pdb
