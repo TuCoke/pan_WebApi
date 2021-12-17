@@ -4,14 +4,14 @@
     "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\pan.web\\pan.web.csproj": {}
   },
   "projects": {
-    "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\pan.web\\pan.web.csproj": {
+    "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\Pan.Common\\Pan.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\pan.web\\pan.web.csproj",
-        "projectName": "pan.web",
-        "projectPath": "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\pan.web\\pan.web.csproj",
+        "projectUniqueName": "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\Pan.Common\\Pan.Common.csproj",
+        "projectName": "Pan.Common",
+        "projectPath": "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\Pan.Common\\Pan.Common.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\pan.web\\obj\\",
+        "outputPath": "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\Pan.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -43,6 +43,197 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.2.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\Pan.Infrastructure\\Pan.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\Pan.Infrastructure\\Pan.Infrastructure.csproj",
+        "projectName": "Pan.Infrastructure",
+        "projectPath": "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\Pan.Infrastructure\\Pan.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\Pan.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/zeekoget/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\Pan.Common\\Pan.Common.csproj": {
+                "projectPath": "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\Pan.Common\\Pan.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\pan.web\\pan.web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\pan.web\\pan.web.csproj",
+        "projectName": "pan.web",
+        "projectPath": "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\pan.web\\pan.web.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\pan.web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/zeekoget/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\Pan.Common\\Pan.Common.csproj": {
+                "projectPath": "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\Pan.Common\\Pan.Common.csproj"
+              },
+              "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\Pan.Infrastructure\\Pan.Infrastructure.csproj": {
+                "projectPath": "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\Pan.Infrastructure\\Pan.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.OpenApi": {
+              "target": "Package",
+              "version": "[1.2.3, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.Filters": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Swashbuckle.AspNetCore.Newtonsoft": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
