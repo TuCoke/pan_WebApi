@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Pan.Infrastructure.Base;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,15 @@ namespace Pan.Infrastructure.Entity
 {
 	public class FileStorage : BaseEntity
 	{
+
+		//"Scaffold-DbContext "server=81.69.255.66;userid=ddd;pwd=eLDX3cymGNRt2kNa;port=3306;database=ddd;sslmode=none;" Pomelo.EntityFrameworkCore.MySql -OutputDir Entity -UseDatabaseNames -Force"
+
+		//Scaffold-DbContext -Connection "Server=81.69.255.66;User Id=ddd;Password=eLDX3cymGNRt2kNa;Database=ddd" -Provider "Pomelo.EntityFrameworkCore.MySql" -OutputDir Entity
+		//Scaffold-DbContext "server=81.69.255.66;userid=ddd;pwd=eLDX3cymGNRt2kNa;port=3306;database=ddd;sslmode=none;" Pomelo.EntityFrameworkCore.MySql -OutputDir Entity -Force
+
+
+		//	server=81.69.255.66;port=3306;uid=ddd;pwd=eLDX3cymGNRt2kNa;database=ddd;charset=utf8mb4
+
 		/// <summary>
 		/// 文件后缀
 		/// </summary>

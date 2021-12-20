@@ -199,4 +199,51 @@ namespace Pan.Infrastructure.Context
             _dbContext.RemoveRange(entities);
         }
     }
+    public class Repository<TEntity, TPrimaryKey> : Repository<TEntity>, IRepository<TEntity, TPrimaryKey> where TEntity : BaseEntityCore<TPrimaryKey>
+    {
+        public Repository(EFCoreDbContext dbContext) : base(dbContext)
+        {
+        }
+
+        public async Task<TEntity> GetAsync(TPrimaryKey id)
+        {
+            return await _dbContext.FindAsync<TEntity>(id);
+        }
+
+        public async Task DeleteAsync(TPrimaryKey id)
+        {
+            var entity = await _dbContext.FindAsync<TEntity>(id);
+            if (entity == null)
+            {
+                Delete(entity);
+            }
+        }
+
+        public async Task DeleteRangeAsync(IEnumerable<TPrimaryKey> ids)
+        {
+            var entities = await _dbContext.Set<TEntity>().Where(x => ids.Contains(x.Id)).ToListAsync();
+            if (entities.Count > 0)
+            {
+                DeleteRange(entities);
+            }
+        }
+
+        public async Task HardDeleteAsync(TPrimaryKey id)
+        {
+            var entity = await _dbContext.FindAsync<TEntity>(id);
+            if (entity == null)
+            {
+                HardDelete(entity);
+            }
+        }
+
+        public async Task HardDeleteRangeAsync(IEnumerable<TPrimaryKey> ids)
+        {
+            var entities = await _dbContext.Set<TEntity>().Where(x => ids.Contains(x.Id)).ToListAsync();
+            if (entities.Count > 0)
+            {
+                HardDeleteRange(entities);
+            }
+        }
+    }
 }

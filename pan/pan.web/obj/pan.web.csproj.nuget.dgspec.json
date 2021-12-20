@@ -72,6 +72,90 @@
         }
       }
     },
+    "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\Pan.Domain\\Pan.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\Pan.Domain\\Pan.Domain.csproj",
+        "projectName": "Pan.Domain",
+        "projectPath": "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\Pan.Domain\\Pan.Domain.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\Pan.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/zeekoget/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\Pan.Infrastructure\\Pan.Infrastructure.csproj": {
+                "projectPath": "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\Pan.Infrastructure\\Pan.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\Pan.Infrastructure\\Pan.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -179,6 +263,9 @@
               "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\Pan.Common\\Pan.Common.csproj": {
                 "projectPath": "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\Pan.Common\\Pan.Common.csproj"
               },
+              "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\Pan.Domain\\Pan.Domain.csproj": {
+                "projectPath": "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\Pan.Domain\\Pan.Domain.csproj"
+              },
               "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\Pan.Infrastructure\\Pan.Infrastructure.csproj": {
                 "projectPath": "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\Pan.Infrastructure\\Pan.Infrastructure.csproj"
               }
@@ -195,6 +282,18 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[10.3.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[5.0.8, )"
@@ -232,6 +331,10 @@
             "Swashbuckle.AspNetCore.SwaggerUI": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.12.0, )"
             }
           },
           "imports": [
