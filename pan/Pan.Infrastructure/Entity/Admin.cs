@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Pan.Infrastructure.Base;
+using Pan.Infrastructure.Enums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

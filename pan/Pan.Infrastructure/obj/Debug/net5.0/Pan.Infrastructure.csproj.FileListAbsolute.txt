@@ -13,3 +13,6 @@ D:\Hongbo\Code\Pan\pan_\pan\Pan.Infrastructure\obj\Debug\net5.0\Pan.Infrastructu
 D:\Hongbo\Code\Pan\pan_\pan\Pan.Infrastructure\obj\Debug\net5.0\Pan.Infrastructure.dll
 D:\Hongbo\Code\Pan\pan_\pan\Pan.Infrastructure\obj\Debug\net5.0\ref\Pan.Infrastructure.dll
 D:\Hongbo\Code\Pan\pan_\pan\Pan.Infrastructure\obj\Debug\net5.0\Pan.Infrastructure.pdb
+D:\Hongbo\Code\Pan\pan_\pan\Pan.Infrastructure\bin\Debug\net5.0\Pan.Infrastructure.runtimeconfig.json
+D:\Hongbo\Code\Pan\pan_\pan\Pan.Infrastructure\bin\Debug\net5.0\Pan.Infrastructure.runtimeconfig.dev.json
+D:\Hongbo\Code\Pan\pan_\pan\Pan.Infrastructure\obj\Debug\net5.0\Pan.Infrastructure.genruntimeconfig.cache

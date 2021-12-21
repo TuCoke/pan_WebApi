@@ -19,4 +19,5 @@ namespace Pan.Infrastructure.Entity
         public string prev { get; set; }
         public string createTime { get; set; }
     }
+
 }

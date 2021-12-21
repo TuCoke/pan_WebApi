@@ -19,7 +19,7 @@ namespace Pan.Domain.Service
 			_configuration = configuration;
 		}
 
-		public string GetToken(Guid id, TimeSpan timeSpan)
+		public string GetToken(int id, TimeSpan timeSpan)
 		{
 			var claims = new Claim[]{
 				new Claim("UserId",id.ToString()),
