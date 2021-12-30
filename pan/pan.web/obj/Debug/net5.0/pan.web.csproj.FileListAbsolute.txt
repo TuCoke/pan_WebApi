@@ -70,7 +70,6 @@ D:\Hongbo\Code\Pan\pan_\pan\pan.web\obj\Debug\net5.0\pan.web.csproj.CoreCompileI
 D:\Hongbo\Code\Pan\pan_\pan\pan.web\obj\Debug\net5.0\pan.web.MvcApplicationPartsAssemblyInfo.cs
 D:\Hongbo\Code\Pan\pan_\pan\pan.web\obj\Debug\net5.0\pan.web.MvcApplicationPartsAssemblyInfo.cache
 D:\Hongbo\Code\Pan\pan_\pan\pan.web\obj\Debug\net5.0\staticwebassets\pan.web.StaticWebAssets.Manifest.cache
-D:\Hongbo\Code\Pan\pan_\pan\pan.web\obj\Debug\net5.0\staticwebassets\pan.web.StaticWebAssets.xml
 D:\Hongbo\Code\Pan\pan_\pan\pan.web\obj\Debug\net5.0\scopedcss\bundle\pan.web.styles.css
 D:\Hongbo\Code\Pan\pan_\pan\pan.web\obj\Debug\net5.0\pan.web.RazorTargetAssemblyInfo.cache
 D:\Hongbo\Code\Pan\pan_\pan\pan.web\obj\Debug\net5.0\pan.web.csproj.CopyComplete

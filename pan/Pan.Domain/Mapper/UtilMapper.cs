@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Pan.Domain.Handler.Accounts;
+using Pan.Domain.Handler.Post;
 using Pan.Infrastructure.Entity;
 using System;
 using System.Collections.Generic;
@@ -13,7 +14,8 @@ namespace Pan.Domain.Mapper
     {
         public UtilMapper()
         {
-          CreateMap<CreateAdminRequest, Admin>();
+            CreateMap<CreateAdminRequest, Admin>();
+            CreateMap<post, PostItmes>();
         }
     }
 }

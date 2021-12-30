@@ -13,7 +13,7 @@ namespace Pan.Infrastructure.EntityConfig
     {
         public void Configure(EntityTypeBuilder<post> builder)
         {
-            builder.ToTable("posts");
+            builder.ToTable("post");
             builder.Property(x => x.del_url).HasMaxLength(256);
         }
     }

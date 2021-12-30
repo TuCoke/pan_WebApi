@@ -23,7 +23,7 @@ namespace Pan.Infrastructure.Base
 		/// <summary>
 		/// 创建时间
 		/// </summary>
-		public DateTime CreateOn { get; set; }
+		public DateTime? CreateOn { get; set; }
 
 		/// <summary>
 		/// 更新时间

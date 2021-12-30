@@ -1,6 +1,7 @@
 ﻿using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Pan.Common.Encryptions;
+using Pan.Domain.Model.Common;
 using Pan.Domain.Service;
 using Pan.Infrastructure.Context;
 using Pan.Infrastructure.Entity;
@@ -62,7 +63,7 @@ namespace Pan.Domain.Handler.Accounts
         public string Password { get; set; }
     }
 
-    public class AdminLoginResponse
+    public class AdminLoginResponse : EntityDto<int>
     {
         /// <summary>
         /// 用户Id

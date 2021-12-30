@@ -47,5 +47,6 @@ namespace pan.web.Controllers
 			if (result) return Json(new ResponseValue());
 			else return Json(new ResponseValue("操作未完成"));
 		}
+
 	}
 }

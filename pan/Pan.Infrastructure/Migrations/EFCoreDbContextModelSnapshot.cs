@@ -39,13 +39,15 @@ namespace Pan.Infrastructure.Migrations
                         .HasColumnType("longtext");
 
                     b.Property<string>("Name")
-                        .HasColumnType("longtext");
+                        .HasMaxLength(256)
+                        .HasColumnType("varchar(256)");
 
                     b.Property<string>("Password")
                         .HasColumnType("longtext");
 
                     b.Property<string>("Phone")
-                        .HasColumnType("longtext");
+                        .HasMaxLength(22)
+                        .HasColumnType("varchar(22)");
 
                     b.Property<string>("Salt")
                         .HasColumnType("longtext");
@@ -114,7 +116,110 @@ namespace Pan.Infrastructure.Migrations
                     b.ToTable("FileStorage");
                 });
 
+            modelBuilder.Entity("Pan.Infrastructure.Entity.Log", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreateOn")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("UpdateOn")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<string>("request_date")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("request_http")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("request_id")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("request_url")
+                        .HasColumnType("longtext");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Log");
+                });
+
+            modelBuilder.Entity("Pan.Infrastructure.Entity.Tag", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreateOn")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Title")
+                        .HasColumnType("longtext");
+
+                    b.Property<DateTime?>("UpdateOn")
+                        .HasColumnType("datetime(6)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Tag");
+                });
+
             modelBuilder.Entity("Pan.Infrastructure.Entity.post", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreateOn")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("Tags")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Title")
+                        .HasColumnType("longtext");
+
+                    b.Property<DateTime?>("UpdateOn")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<string>("aliyun_url")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("createTime")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("del_url")
+                        .HasMaxLength(256)
+                        .HasColumnType("varchar(256)");
+
+                    b.Property<string>("htmlContext")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("next_url")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("prev")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("request_id")
+                        .HasColumnType("longtext");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("post");
+                });
+
+            modelBuilder.Entity("Pan.Infrastructure.Entity.posts", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

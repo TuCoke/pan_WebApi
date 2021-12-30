@@ -48,6 +48,7 @@ namespace Pan.Infrastructure.UnitOfWoks
 					using (var transaction = await _dbContext.BeginAsync())
 					using (_logger.BeginScope("TransactionContext:{TransactionId}", transaction.TransactionId))
 					{
+                        Console.WriteLine("====");
 						_logger.LogInformation("----- 开始事务 {TransactionId} ({@Command})", transaction.TransactionId, typeName, request);
 
 						response = await next();

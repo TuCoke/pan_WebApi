@@ -246,4 +246,21 @@ namespace Pan.Infrastructure.Context
             }
         }
     }
+    public static class RepositoryExtension
+    {
+        public static IQueryable<TEntity> GetQueryWithDisable<TEntity>(this IRepository<TEntity> repository) where TEntity : class, IEntityStatus
+        {
+            var query = repository.GetQueryWithDelete();
+            return query.Where(x => x.Status != EntityStatusEnums.Delete);
+        }
+
+        public static async Task DeleteAsync<TEntity, TPrimaryKey>(this IRepository<TEntity, TPrimaryKey> repository, TPrimaryKey Id) where TEntity : BaseEntityCore<TPrimaryKey>, IEntityStatus
+        {
+            var entity = await repository.GetAsync(Id);
+            if (entity == null) return;
+
+            entity.Status = EntityStatusEnums.Delete;
+            repository.Update(entity);
+        }
+    }
 }

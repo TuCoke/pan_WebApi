@@ -8,7 +8,7 @@ namespace Pan.Infrastructure.Base
 {
 	public interface IHasCreationTime
 	{
-		public DateTime CreateOn { get; set; }
+		public DateTime? CreateOn { get; set; }
 	}
 
 	public interface IHasCreation : IHasCreationTime

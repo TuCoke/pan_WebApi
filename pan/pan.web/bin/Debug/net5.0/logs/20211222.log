@@ -1,0 +1,559 @@
+2021-12-22 11:18:59.212 +08:00 [INF] application start
+2021-12-22 11:19:10.196 +08:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-12-22 11:19:13.113 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-22 11:19:13.113 +08:00 [INF] Hosting environment: Development
+2021-12-22 11:19:13.113 +08:00 [INF] Content root path: D:\Hongbo\Code\Pan\pan_\pan\pan.web
+2021-12-22 11:19:13.349 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:33617/ - -
+2021-12-22 11:19:14.791 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:33617/ - - - 404 - - 1450.3424ms
+2021-12-22 11:19:17.764 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:33617/swagger - -
+2021-12-22 11:19:17.794 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:33617/swagger - - - 301 - - 31.6737ms
+2021-12-22 11:19:17.842 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:33617/swagger/index.html - -
+2021-12-22 11:19:18.299 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:33617/swagger/index.html - - - 200 - text/html;charset=utf-8 453.8403ms
+2021-12-22 11:19:18.419 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:33617/swagger/swagger-ui.css - -
+2021-12-22 11:19:18.450 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:33617/swagger/swagger-ui-bundle.js - -
+2021-12-22 11:19:18.450 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:33617/swagger/swagger-ui-standalone-preset.js - -
+2021-12-22 11:19:18.549 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-12-22 11:19:18.549 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-12-22 11:19:18.557 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:33617/swagger/swagger-ui.css - - - 200 143632 text/css 137.5889ms
+2021-12-22 11:19:18.562 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:33617/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 111.6283ms
+2021-12-22 11:19:18.599 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-12-22 11:19:18.646 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:33617/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 195.6252ms
+2021-12-22 11:19:19.293 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:33617/swagger/v1/swagger.json - -
+2021-12-22 11:19:19.359 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:33617/swagger/favicon-32x32.png - -
+2021-12-22 11:19:19.360 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-12-22 11:19:19.364 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:33617/swagger/favicon-32x32.png - - - 200 628 image/png 5.1804ms
+2021-12-22 11:19:20.386 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:33617/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1092.9026ms
+2021-12-22 11:19:53.895 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:33617/swagger/index.html - -
+2021-12-22 11:19:53.901 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:33617/swagger/index.html - - - 200 - text/html;charset=utf-8 6.4806ms
+2021-12-22 11:19:54.927 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:33617/swagger/v1/swagger.json - -
+2021-12-22 11:19:54.958 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:33617/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 31.2731ms
+2021-12-22 11:20:10.825 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:33617/api/Admin/Login application/json-patch+json 45
+2021-12-22 11:20:10.836 +08:00 [INF] CORS policy execution successful.
+2021-12-22 11:20:10.892 +08:00 [INF] Executing endpoint 'pan.web.Controllers.AdminController.Login (pan.web)'
+2021-12-22 11:20:11.105 +08:00 [INF] Route matched with {action = "Login", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Pan.Domain.Handler.Accounts.AdminLoginRequest) on controller pan.web.Controllers.AdminController (pan.web).
+2021-12-22 11:20:12.167 +08:00 [INF] Executing action method pan.web.Controllers.AdminController.Login (pan.web) - Validation state: "Valid"
+2021-12-22 11:20:15.246 +08:00 [INF] ----- 开始事务 "607b618d-26bc-4dc1-b33c-8817d68dbfa2" ()
+2021-12-22 11:20:17.191 +08:00 [INF] ----- 提交事务 "607b618d-26bc-4dc1-b33c-8817d68dbfa2" 
+2021-12-22 11:20:17.448 +08:00 [INF] Executed action method pan.web.Controllers.AdminController.Login (pan.web), returned result Microsoft.AspNetCore.Mvc.JsonResult in 5274.5255ms.
+2021-12-22 11:20:17.467 +08:00 [INF] Executing JsonResult, writing value of type 'Pan.Domain.Model.Common.ResponseValue`1[[Pan.Domain.Handler.Accounts.AdminLoginResponse, Pan.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-22 11:20:17.579 +08:00 [INF] Executed action pan.web.Controllers.AdminController.Login (pan.web) in 6468.8677ms
+2021-12-22 11:20:17.581 +08:00 [INF] Executed endpoint 'pan.web.Controllers.AdminController.Login (pan.web)'
+2021-12-22 11:20:17.593 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:33617/api/Admin/Login application/json-patch+json 45 - 200 - application/json;+charset=utf-8 6767.1385ms
+2021-12-22 14:15:42.968 +08:00 [INF] application start
+2021-12-22 14:15:53.407 +08:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-12-22 14:15:55.983 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-22 14:15:55.983 +08:00 [INF] Hosting environment: Development
+2021-12-22 14:15:55.983 +08:00 [INF] Content root path: D:\Hongbo\Code\Pan\pan_\pan\pan.web
+2021-12-22 14:15:56.475 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:33617/swagger - -
+2021-12-22 14:15:56.475 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:33617/ - -
+2021-12-22 14:15:57.081 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:33617/swagger/index.html - -
+2021-12-22 14:15:57.263 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:33617/swagger - - - 301 - - 792.7949ms
+2021-12-22 14:15:57.575 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:33617/swagger/index.html - - - 200 - text/html;charset=utf-8 494.6072ms
+2021-12-22 14:15:57.696 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:33617/swagger/swagger-ui.css - -
+2021-12-22 14:15:57.737 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:33617/swagger/swagger-ui-bundle.js - -
+2021-12-22 14:15:57.738 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:33617/swagger/swagger-ui-standalone-preset.js - -
+2021-12-22 14:15:58.143 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-12-22 14:15:58.146 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:33617/swagger/swagger-ui.css - - - 200 143632 text/css 449.9276ms
+2021-12-22 14:15:58.186 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:33617/ - - - 0 - - 1716.1983ms
+2021-12-22 14:15:58.212 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-12-22 14:15:58.212 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:33617/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 506.0232ms
+2021-12-22 14:15:58.212 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-12-22 14:15:58.213 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:33617/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 475.1959ms
+2021-12-22 14:32:01.338 +08:00 [INF] application start
+2021-12-22 14:32:11.846 +08:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-12-22 14:32:14.854 +08:00 [INF] Now listening on: http://[::]:5000
+2021-12-22 14:32:14.856 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-22 14:32:14.857 +08:00 [INF] Hosting environment: Development
+2021-12-22 14:32:14.861 +08:00 [INF] Content root path: D:\Hongbo\Code\Pan\pan_\pan\pan.web
+2021-12-22 14:32:29.966 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/ - -
+2021-12-22 14:32:30.321 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/ - - - 301 0 - 355.6819ms
+2021-12-22 14:32:30.411 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2021-12-22 14:32:30.519 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 107.9453ms
+2021-12-22 14:32:31.895 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2021-12-22 14:32:33.215 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1320.2800ms
+2021-12-22 14:32:40.165 +08:00 [INF] Application is shutting down...
+2021-12-22 14:57:01.753 +08:00 [INF] application start
+2021-12-22 14:57:12.546 +08:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-12-22 14:57:15.205 +08:00 [INF] Now listening on: http://[::]:5000
+2021-12-22 14:57:15.207 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-22 14:57:15.208 +08:00 [INF] Hosting environment: Development
+2021-12-22 14:57:15.209 +08:00 [INF] Content root path: D:\Hongbo\Code\Pan\pan_\pan\pan.web
+2021-12-22 14:57:30.326 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2021-12-22 14:57:30.777 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 457.1035ms
+2021-12-22 14:57:31.057 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2021-12-22 14:57:32.268 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Failed to generate Operation for action - pan.web.Controllers.PostController.Login (pan.web). See inner exception
+ ---> Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Failed to generate schema for type - Pan.Domain.Model.Common.ResponseValue`1[T]. See inner exception
+ ---> System.ArgumentNullException: Value cannot be null. (Parameter 'key')
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at Swashbuckle.AspNetCore.SwaggerGen.SchemaRepository.AddDefinition(String schemaId, OpenApiSchema schema)
+   at Swashbuckle.AspNetCore.SwaggerGen.SchemaGenerator.GenerateReferencedSchema(DataContract dataContract, SchemaRepository schemaRepository, Func`1 definitionFactory)
+   at Swashbuckle.AspNetCore.SwaggerGen.SchemaGenerator.GenerateConcreteSchema(DataContract dataContract, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SchemaGenerator.GenerateSchemaForMember(Type modelType, SchemaRepository schemaRepository, MemberInfo memberInfo, DataProperty dataProperty)
+   at Swashbuckle.AspNetCore.SwaggerGen.SchemaGenerator.CreateObjectSchema(DataContract dataContract, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SchemaGenerator.<>c__DisplayClass10_0.<GenerateConcreteSchema>b__3()
+   at Swashbuckle.AspNetCore.SwaggerGen.SchemaGenerator.GenerateReferencedSchema(DataContract dataContract, SchemaRepository schemaRepository, Func`1 definitionFactory)
+   at Swashbuckle.AspNetCore.SwaggerGen.SchemaGenerator.GenerateConcreteSchema(DataContract dataContract, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SchemaGenerator.GenerateSchemaForType(Type modelType, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SchemaGenerator.GenerateSchema(Type modelType, SchemaRepository schemaRepository, MemberInfo memberInfo, ParameterInfo parameterInfo)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateSchema(Type type, SchemaRepository schemaRepository, PropertyInfo propertyInfo, ParameterInfo parameterInfo)
+   --- End of inner exception stack trace ---
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateSchema(Type type, SchemaRepository schemaRepository, PropertyInfo propertyInfo, ParameterInfo parameterInfo)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.CreateResponseMediaType(ModelMetadata modelMetadata, SchemaRepository schemaRespository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.<>c__DisplayClass19_0.<GenerateResponse>b__2(String contentType)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateResponse(ApiDescription apiDescription, SchemaRepository schemaRepository, String statusCode, ApiResponseType apiResponseType)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateResponses(ApiDescription apiDescription, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperation(ApiDescription apiDescription, SchemaRepository schemaRepository)
+   --- End of inner exception stack trace ---
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperation(ApiDescription apiDescription, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-12-22 14:57:32.736 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 500 - text/plain 1678.4995ms
+2021-12-22 14:57:48.845 +08:00 [INF] Application is shutting down...
+2021-12-22 14:58:15.947 +08:00 [INF] application start
+2021-12-22 14:58:26.330 +08:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-12-22 14:58:29.029 +08:00 [INF] Now listening on: http://[::]:5000
+2021-12-22 14:58:29.082 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-22 14:58:29.083 +08:00 [INF] Hosting environment: Development
+2021-12-22 14:58:29.084 +08:00 [INF] Content root path: D:\Hongbo\Code\Pan\pan_\pan\pan.web
+2021-12-22 14:58:41.480 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2021-12-22 14:58:41.957 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 475.7875ms
+2021-12-22 14:58:42.266 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2021-12-22 14:58:43.144 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 878.5572ms
+2021-12-22 14:59:44.258 +08:00 [INF] application start
+2021-12-22 14:59:54.909 +08:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-12-22 14:59:57.678 +08:00 [INF] Now listening on: http://[::]:5000
+2021-12-22 14:59:57.681 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-22 14:59:57.683 +08:00 [INF] Hosting environment: Development
+2021-12-22 14:59:57.685 +08:00 [INF] Content root path: D:\Hongbo\Code\Pan\pan_\pan\pan.web
+2021-12-22 14:59:57.922 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2021-12-22 14:59:58.357 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 436.0184ms
+2021-12-22 14:59:58.712 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2021-12-22 14:59:59.503 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 792.8570ms
+2021-12-22 15:00:12.781 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Post/Login?Sorting=1&SkipCount=50 - -
+2021-12-22 15:00:13.539 +08:00 [INF] Executing endpoint 'pan.web.Controllers.PostController.Login (pan.web)'
+2021-12-22 15:00:13.668 +08:00 [INF] Route matched with {action = "Login", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Pan.Domain.Handler.Post.PostRequest) on controller pan.web.Controllers.PostController (pan.web).
+2021-12-22 15:00:18.942 +08:00 [INF] ----- 开始事务 "99d37bd5-5ff3-4ba1-8f29-c0867eba66e9" ()
+2021-12-22 15:00:21.539 +08:00 [ERR] 处理事务出错  ({"Sorting":"1","SkipCount":50,"MaxResultCount":10,"$type":"PostRequest"})
+MySqlConnector.MySqlException (0x80004005): Unknown column 'p.Status' in 'where clause'
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsyncAwaited(ValueTask`1 task) in /_/src/MySqlConnector/Core/ServerSession.cs:line 888
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 50
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 135
+   at MySqlConnector.MySqlDataReader.CreateAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 444
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(IReadOnlyList`1 commands, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 60
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 314
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 307
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Pan.Domain.Handler.Post.PostHandler.Handle(PostRequest request, CancellationToken cancellationToken) in D:\Hongbo\Code\Pan\pan_\pan\Pan.Domain\Handler\Post\GetAll.cs:line 33
+   at Pan.Infrastructure.UnitOfWoks.TransactionBehavior`3.<>c__DisplayClass3_0.<<Handle>b__0>d.MoveNext() in D:\Hongbo\Code\Pan\pan_\pan\Pan.Infrastructure\UnitOfWoks\TransactionBehavior.cs:line 54
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c.<<ExecuteAsync>b__3_0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Pan.Infrastructure.UnitOfWoks.TransactionBehavior`3.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next) in D:\Hongbo\Code\Pan\pan_\pan\Pan.Infrastructure\UnitOfWoks\TransactionBehavior.cs:line 45
+2021-12-22 15:00:22.669 +08:00 [INF] Executed action pan.web.Controllers.PostController.Login (pan.web) in 8975.4256ms
+2021-12-22 15:00:22.688 +08:00 [INF] Executed endpoint 'pan.web.Controllers.PostController.Login (pan.web)'
+2021-12-22 15:00:23.649 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+MySqlConnector.MySqlException (0x80004005): Unknown column 'p.Status' in 'where clause'
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsyncAwaited(ValueTask`1 task) in /_/src/MySqlConnector/Core/ServerSession.cs:line 888
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in /_/src/MySqlConnector/Core/ResultSet.cs:line 50
+   at MySqlConnector.MySqlDataReader.ActivateResultSet(CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 135
+   at MySqlConnector.MySqlDataReader.CreateAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlDataReader.cs:line 444
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(IReadOnlyList`1 commands, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/CommandExecutor.cs:line 60
+   at MySqlConnector.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 314
+   at MySqlConnector.MySqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlCommand.cs:line 307
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Pan.Domain.Handler.Post.PostHandler.Handle(PostRequest request, CancellationToken cancellationToken) in D:\Hongbo\Code\Pan\pan_\pan\Pan.Domain\Handler\Post\GetAll.cs:line 33
+   at Pan.Infrastructure.UnitOfWoks.TransactionBehavior`3.<>c__DisplayClass3_0.<<Handle>b__0>d.MoveNext() in D:\Hongbo\Code\Pan\pan_\pan\Pan.Infrastructure\UnitOfWoks\TransactionBehavior.cs:line 54
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c.<<ExecuteAsync>b__3_0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Pan.Infrastructure.UnitOfWoks.TransactionBehavior`3.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next) in D:\Hongbo\Code\Pan\pan_\pan\Pan.Infrastructure\UnitOfWoks\TransactionBehavior.cs:line 45
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at pan.web.Controllers.PostController.Login(PostRequest request) in D:\Hongbo\Code\Pan\pan_\pan\pan.web\Controllers\PostController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at pan.web.MiddleWares.ExceptionMiddleware.Invoke(HttpContext httpContext) in D:\Hongbo\Code\Pan\pan_\pan\pan.web\MiddleWares\ExceptionMiddleware.cs:line 29
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.Invoke(HttpContext context)
+   at pan.web.MiddleWares.TokenParseMiddleware.Invoke(HttpContext httpContext) in D:\Hongbo\Code\Pan\pan_\pan\pan.web\MiddleWares\TokenParseMiddleware.cs:line 34
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-12-22 15:00:23.979 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/Post/Login?Sorting=1&SkipCount=50 - - - 500 - text/plain 11197.4491ms
+2021-12-22 15:02:12.991 +08:00 [INF] application start
+2021-12-22 15:02:23.443 +08:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-12-22 15:02:25.761 +08:00 [INF] Now listening on: http://[::]:5000
+2021-12-22 15:02:25.763 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-22 15:02:25.766 +08:00 [INF] Hosting environment: Development
+2021-12-22 15:02:25.768 +08:00 [INF] Content root path: D:\Hongbo\Code\Pan\pan_\pan\pan.web
+2021-12-22 15:02:43.511 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Post/Login?Sorting=1&SkipCount=50 - -
+2021-12-22 15:02:44.501 +08:00 [INF] Executing endpoint 'pan.web.Controllers.PostController.Login (pan.web)'
+2021-12-22 15:02:44.561 +08:00 [INF] Route matched with {action = "Login", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Pan.Domain.Handler.Post.PostRequest) on controller pan.web.Controllers.PostController (pan.web).
+2021-12-22 15:02:47.131 +08:00 [INF] ----- 开始事务 "6826bf4c-b940-4948-a476-bd0c9d5fdfab" ()
+2021-12-22 15:02:50.122 +08:00 [ERR] 处理事务出错  ({"Sorting":"1","SkipCount":50,"MaxResultCount":10,"$type":"PostRequest"})
+System.InvalidCastException: Unable to convert MySQL date/time to System.DateTime, set AllowZeroDateTime=True or ConvertZeroDateTime=True in the connection string. See https://mysqlconnector.net/connection-options/
+   at MySqlConnector.Core.TextRow.ParseDateTime(ReadOnlySpan`1 value) in /_/src/MySqlConnector/Core/TextRow.cs:line 151
+   at MySqlConnector.Core.TextRow.GetValueCore(ReadOnlySpan`1 data, ColumnDefinitionPayload columnDefinition) in /_/src/MySqlConnector/Core/TextRow.cs:line 90
+   at MySqlConnector.Core.Row.GetValue(Int32 ordinal) in /_/src/MySqlConnector/Core/Row.cs:line 38
+   at MySqlConnector.Core.Row.GetDateTime(Int32 ordinal) in /_/src/MySqlConnector/Core/Row.cs:line 355
+   at MySqlConnector.MySqlDataReader.GetDateTime(Int32 ordinal) in /_/src/MySqlConnector/MySqlDataReader.cs:line 261
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.BufferedDataRecord.ReadDateTime(DbDataReader reader, Int32 ordinal, ReaderColumn column)
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.BufferedDataRecord.ReadRow()
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.BufferedDataRecord.InitializeAsync(DbDataReader reader, IReadOnlyList`1 columns, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.InitializeAsync(IReadOnlyList`1 columns, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.InitializeAsync(IReadOnlyList`1 columns, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Pan.Infrastructure.Extensions.QueryableExtensions.OrderAndPagedAsync[T](IQueryable`1 query, IPagedAndSortedModel request) in D:\Hongbo\Code\Pan\pan_\pan\Pan.Infrastructure\Extensions\QueryableExtensions.cs:line 22
+   at Pan.Domain.Handler.Post.PostHandler.Handle(PostRequest request, CancellationToken cancellationToken) in D:\Hongbo\Code\Pan\pan_\pan\Pan.Domain\Handler\Post\GetAll.cs:line 34
+   at Pan.Infrastructure.UnitOfWoks.TransactionBehavior`3.<>c__DisplayClass3_0.<<Handle>b__0>d.MoveNext() in D:\Hongbo\Code\Pan\pan_\pan\Pan.Infrastructure\UnitOfWoks\TransactionBehavior.cs:line 54
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c.<<ExecuteAsync>b__3_0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Pan.Infrastructure.UnitOfWoks.TransactionBehavior`3.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next) in D:\Hongbo\Code\Pan\pan_\pan\Pan.Infrastructure\UnitOfWoks\TransactionBehavior.cs:line 45
+2021-12-22 15:02:51.077 +08:00 [INF] Executed action pan.web.Controllers.PostController.Login (pan.web) in 6505.6117ms
+2021-12-22 15:02:51.085 +08:00 [INF] Executed endpoint 'pan.web.Controllers.PostController.Login (pan.web)'
+2021-12-22 15:02:51.809 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidCastException: Unable to convert MySQL date/time to System.DateTime, set AllowZeroDateTime=True or ConvertZeroDateTime=True in the connection string. See https://mysqlconnector.net/connection-options/
+   at MySqlConnector.Core.TextRow.ParseDateTime(ReadOnlySpan`1 value) in /_/src/MySqlConnector/Core/TextRow.cs:line 151
+   at MySqlConnector.Core.TextRow.GetValueCore(ReadOnlySpan`1 data, ColumnDefinitionPayload columnDefinition) in /_/src/MySqlConnector/Core/TextRow.cs:line 90
+   at MySqlConnector.Core.Row.GetValue(Int32 ordinal) in /_/src/MySqlConnector/Core/Row.cs:line 38
+   at MySqlConnector.Core.Row.GetDateTime(Int32 ordinal) in /_/src/MySqlConnector/Core/Row.cs:line 355
+   at MySqlConnector.MySqlDataReader.GetDateTime(Int32 ordinal) in /_/src/MySqlConnector/MySqlDataReader.cs:line 261
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.BufferedDataRecord.ReadDateTime(DbDataReader reader, Int32 ordinal, ReaderColumn column)
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.BufferedDataRecord.ReadRow()
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.BufferedDataRecord.InitializeAsync(DbDataReader reader, IReadOnlyList`1 columns, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.InitializeAsync(IReadOnlyList`1 columns, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.InitializeAsync(IReadOnlyList`1 columns, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Pan.Infrastructure.Extensions.QueryableExtensions.OrderAndPagedAsync[T](IQueryable`1 query, IPagedAndSortedModel request) in D:\Hongbo\Code\Pan\pan_\pan\Pan.Infrastructure\Extensions\QueryableExtensions.cs:line 22
+   at Pan.Domain.Handler.Post.PostHandler.Handle(PostRequest request, CancellationToken cancellationToken) in D:\Hongbo\Code\Pan\pan_\pan\Pan.Domain\Handler\Post\GetAll.cs:line 34
+   at Pan.Infrastructure.UnitOfWoks.TransactionBehavior`3.<>c__DisplayClass3_0.<<Handle>b__0>d.MoveNext() in D:\Hongbo\Code\Pan\pan_\pan\Pan.Infrastructure\UnitOfWoks\TransactionBehavior.cs:line 54
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c.<<ExecuteAsync>b__3_0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Pan.Infrastructure.UnitOfWoks.TransactionBehavior`3.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next) in D:\Hongbo\Code\Pan\pan_\pan\Pan.Infrastructure\UnitOfWoks\TransactionBehavior.cs:line 45
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at pan.web.Controllers.PostController.Login(PostRequest request) in D:\Hongbo\Code\Pan\pan_\pan\pan.web\Controllers\PostController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at pan.web.MiddleWares.ExceptionMiddleware.Invoke(HttpContext httpContext) in D:\Hongbo\Code\Pan\pan_\pan\pan.web\MiddleWares\ExceptionMiddleware.cs:line 29
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.Invoke(HttpContext context)
+   at pan.web.MiddleWares.TokenParseMiddleware.Invoke(HttpContext httpContext) in D:\Hongbo\Code\Pan\pan_\pan\pan.web\MiddleWares\TokenParseMiddleware.cs:line 34
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-12-22 15:02:52.027 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/Post/Login?Sorting=1&SkipCount=50 - - - 500 - text/plain 8518.7244ms
+2021-12-22 15:04:11.797 +08:00 [INF] application start
+2021-12-22 15:04:22.847 +08:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-12-22 15:04:25.598 +08:00 [INF] Now listening on: http://[::]:5000
+2021-12-22 15:04:25.602 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-22 15:04:25.603 +08:00 [INF] Hosting environment: Development
+2021-12-22 15:04:25.604 +08:00 [INF] Content root path: D:\Hongbo\Code\Pan\pan_\pan\pan.web
+2021-12-22 15:04:34.984 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Post/Login?Sorting=1&SkipCount=50 - -
+2021-12-22 15:04:35.780 +08:00 [INF] Executing endpoint 'pan.web.Controllers.PostController.Login (pan.web)'
+2021-12-22 15:04:35.835 +08:00 [INF] Route matched with {action = "Login", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Pan.Domain.Handler.Post.PostRequest) on controller pan.web.Controllers.PostController (pan.web).
+2021-12-22 15:04:38.482 +08:00 [INF] ----- 开始事务 "ddb433e2-b240-450b-9c36-bcc53eae22e5" ()
+2021-12-22 15:04:40.547 +08:00 [ERR] 处理事务出错  ({"Sorting":"1","SkipCount":50,"MaxResultCount":10,"$type":"PostRequest"})
+System.InvalidCastException: Unable to convert MySQL date/time to System.DateTime, set AllowZeroDateTime=True or ConvertZeroDateTime=True in the connection string. See https://mysqlconnector.net/connection-options/
+   at MySqlConnector.Core.TextRow.ParseDateTime(ReadOnlySpan`1 value) in /_/src/MySqlConnector/Core/TextRow.cs:line 151
+   at MySqlConnector.Core.TextRow.GetValueCore(ReadOnlySpan`1 data, ColumnDefinitionPayload columnDefinition) in /_/src/MySqlConnector/Core/TextRow.cs:line 90
+   at MySqlConnector.Core.Row.GetValue(Int32 ordinal) in /_/src/MySqlConnector/Core/Row.cs:line 38
+   at MySqlConnector.Core.Row.GetDateTime(Int32 ordinal) in /_/src/MySqlConnector/Core/Row.cs:line 355
+   at MySqlConnector.MySqlDataReader.GetDateTime(Int32 ordinal) in /_/src/MySqlConnector/MySqlDataReader.cs:line 261
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.BufferedDataRecord.ReadDateTime(DbDataReader reader, Int32 ordinal, ReaderColumn column)
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.BufferedDataRecord.ReadRow()
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.BufferedDataRecord.InitializeAsync(DbDataReader reader, IReadOnlyList`1 columns, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.InitializeAsync(IReadOnlyList`1 columns, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.InitializeAsync(IReadOnlyList`1 columns, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Pan.Infrastructure.Extensions.QueryableExtensions.OrderAndPagedAsync[T](IQueryable`1 query, IPagedAndSortedModel request) in D:\Hongbo\Code\Pan\pan_\pan\Pan.Infrastructure\Extensions\QueryableExtensions.cs:line 22
+   at Pan.Domain.Handler.Post.PostHandler.Handle(PostRequest request, CancellationToken cancellationToken) in D:\Hongbo\Code\Pan\pan_\pan\Pan.Domain\Handler\Post\GetAll.cs:line 34
+   at Pan.Infrastructure.UnitOfWoks.TransactionBehavior`3.<>c__DisplayClass3_0.<<Handle>b__0>d.MoveNext() in D:\Hongbo\Code\Pan\pan_\pan\Pan.Infrastructure\UnitOfWoks\TransactionBehavior.cs:line 54
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c.<<ExecuteAsync>b__3_0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Pan.Infrastructure.UnitOfWoks.TransactionBehavior`3.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next) in D:\Hongbo\Code\Pan\pan_\pan\Pan.Infrastructure\UnitOfWoks\TransactionBehavior.cs:line 45
+2021-12-22 15:04:41.388 +08:00 [INF] Executed action pan.web.Controllers.PostController.Login (pan.web) in 5544.7164ms
+2021-12-22 15:04:41.394 +08:00 [INF] Executed endpoint 'pan.web.Controllers.PostController.Login (pan.web)'
+2021-12-22 15:04:42.113 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidCastException: Unable to convert MySQL date/time to System.DateTime, set AllowZeroDateTime=True or ConvertZeroDateTime=True in the connection string. See https://mysqlconnector.net/connection-options/
+   at MySqlConnector.Core.TextRow.ParseDateTime(ReadOnlySpan`1 value) in /_/src/MySqlConnector/Core/TextRow.cs:line 151
+   at MySqlConnector.Core.TextRow.GetValueCore(ReadOnlySpan`1 data, ColumnDefinitionPayload columnDefinition) in /_/src/MySqlConnector/Core/TextRow.cs:line 90
+   at MySqlConnector.Core.Row.GetValue(Int32 ordinal) in /_/src/MySqlConnector/Core/Row.cs:line 38
+   at MySqlConnector.Core.Row.GetDateTime(Int32 ordinal) in /_/src/MySqlConnector/Core/Row.cs:line 355
+   at MySqlConnector.MySqlDataReader.GetDateTime(Int32 ordinal) in /_/src/MySqlConnector/MySqlDataReader.cs:line 261
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.BufferedDataRecord.ReadDateTime(DbDataReader reader, Int32 ordinal, ReaderColumn column)
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.BufferedDataRecord.ReadRow()
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.BufferedDataRecord.InitializeAsync(DbDataReader reader, IReadOnlyList`1 columns, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.InitializeAsync(IReadOnlyList`1 columns, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.InitializeAsync(IReadOnlyList`1 columns, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Pan.Infrastructure.Extensions.QueryableExtensions.OrderAndPagedAsync[T](IQueryable`1 query, IPagedAndSortedModel request) in D:\Hongbo\Code\Pan\pan_\pan\Pan.Infrastructure\Extensions\QueryableExtensions.cs:line 22
+   at Pan.Domain.Handler.Post.PostHandler.Handle(PostRequest request, CancellationToken cancellationToken) in D:\Hongbo\Code\Pan\pan_\pan\Pan.Domain\Handler\Post\GetAll.cs:line 34
+   at Pan.Infrastructure.UnitOfWoks.TransactionBehavior`3.<>c__DisplayClass3_0.<<Handle>b__0>d.MoveNext() in D:\Hongbo\Code\Pan\pan_\pan\Pan.Infrastructure\UnitOfWoks\TransactionBehavior.cs:line 54
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c.<<ExecuteAsync>b__3_0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Pan.Infrastructure.UnitOfWoks.TransactionBehavior`3.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next) in D:\Hongbo\Code\Pan\pan_\pan\Pan.Infrastructure\UnitOfWoks\TransactionBehavior.cs:line 45
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at pan.web.Controllers.PostController.Login(PostRequest request) in D:\Hongbo\Code\Pan\pan_\pan\pan.web\Controllers\PostController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at pan.web.MiddleWares.ExceptionMiddleware.Invoke(HttpContext httpContext) in D:\Hongbo\Code\Pan\pan_\pan\pan.web\MiddleWares\ExceptionMiddleware.cs:line 29
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.Invoke(HttpContext context)
+   at pan.web.MiddleWares.TokenParseMiddleware.Invoke(HttpContext httpContext) in D:\Hongbo\Code\Pan\pan_\pan\pan.web\MiddleWares\TokenParseMiddleware.cs:line 34
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-12-22 15:04:42.334 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/Post/Login?Sorting=1&SkipCount=50 - - - 500 - text/plain 7351.0462ms
+2021-12-22 15:06:23.274 +08:00 [INF] application start
+2021-12-22 15:06:34.949 +08:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-12-22 15:06:37.546 +08:00 [INF] Now listening on: http://[::]:5000
+2021-12-22 15:06:37.547 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-22 15:06:37.549 +08:00 [INF] Hosting environment: Development
+2021-12-22 15:06:37.550 +08:00 [INF] Content root path: D:\Hongbo\Code\Pan\pan_\pan\pan.web
+2021-12-22 15:06:45.931 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Post/Login?Sorting=1&SkipCount=50 - -
+2021-12-22 15:06:46.982 +08:00 [INF] Executing endpoint 'pan.web.Controllers.PostController.Login (pan.web)'
+2021-12-22 15:06:47.034 +08:00 [INF] Route matched with {action = "Login", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Pan.Domain.Handler.Post.PostRequest) on controller pan.web.Controllers.PostController (pan.web).
+2021-12-22 15:06:50.046 +08:00 [INF] ----- 开始事务 "b95e0e30-60b5-44ed-a0a6-7982f188c417" ()
+2021-12-22 15:06:52.359 +08:00 [ERR] 处理事务出错  ({"Sorting":"1","SkipCount":50,"MaxResultCount":10,"$type":"PostRequest"})
+System.InvalidCastException: Unable to convert MySQL date/time to System.DateTime, set AllowZeroDateTime=True or ConvertZeroDateTime=True in the connection string. See https://mysqlconnector.net/connection-options/
+   at MySqlConnector.Core.TextRow.ParseDateTime(ReadOnlySpan`1 value) in /_/src/MySqlConnector/Core/TextRow.cs:line 151
+   at MySqlConnector.Core.TextRow.GetValueCore(ReadOnlySpan`1 data, ColumnDefinitionPayload columnDefinition) in /_/src/MySqlConnector/Core/TextRow.cs:line 90
+   at MySqlConnector.Core.Row.GetValue(Int32 ordinal) in /_/src/MySqlConnector/Core/Row.cs:line 38
+   at MySqlConnector.Core.Row.GetDateTime(Int32 ordinal) in /_/src/MySqlConnector/Core/Row.cs:line 355
+   at MySqlConnector.MySqlDataReader.GetDateTime(Int32 ordinal) in /_/src/MySqlConnector/MySqlDataReader.cs:line 261
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.BufferedDataRecord.ReadDateTime(DbDataReader reader, Int32 ordinal, ReaderColumn column)
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.BufferedDataRecord.ReadRow()
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.BufferedDataRecord.InitializeAsync(DbDataReader reader, IReadOnlyList`1 columns, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.InitializeAsync(IReadOnlyList`1 columns, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.InitializeAsync(IReadOnlyList`1 columns, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Pan.Infrastructure.Extensions.QueryableExtensions.OrderAndPagedAsync[T](IQueryable`1 query, IPagedAndSortedModel request) in D:\Hongbo\Code\Pan\pan_\pan\Pan.Infrastructure\Extensions\QueryableExtensions.cs:line 22
+   at Pan.Domain.Handler.Post.PostHandler.Handle(PostRequest request, CancellationToken cancellationToken) in D:\Hongbo\Code\Pan\pan_\pan\Pan.Domain\Handler\Post\GetAll.cs:line 34
+   at Pan.Infrastructure.UnitOfWoks.TransactionBehavior`3.<>c__DisplayClass3_0.<<Handle>b__0>d.MoveNext() in D:\Hongbo\Code\Pan\pan_\pan\Pan.Infrastructure\UnitOfWoks\TransactionBehavior.cs:line 54
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c.<<ExecuteAsync>b__3_0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Pan.Infrastructure.UnitOfWoks.TransactionBehavior`3.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next) in D:\Hongbo\Code\Pan\pan_\pan\Pan.Infrastructure\UnitOfWoks\TransactionBehavior.cs:line 45
+2021-12-22 15:06:53.364 +08:00 [INF] Executed action pan.web.Controllers.PostController.Login (pan.web) in 6318.7587ms
+2021-12-22 15:06:53.370 +08:00 [INF] Executed endpoint 'pan.web.Controllers.PostController.Login (pan.web)'
+2021-12-22 15:06:54.340 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidCastException: Unable to convert MySQL date/time to System.DateTime, set AllowZeroDateTime=True or ConvertZeroDateTime=True in the connection string. See https://mysqlconnector.net/connection-options/
+   at MySqlConnector.Core.TextRow.ParseDateTime(ReadOnlySpan`1 value) in /_/src/MySqlConnector/Core/TextRow.cs:line 151
+   at MySqlConnector.Core.TextRow.GetValueCore(ReadOnlySpan`1 data, ColumnDefinitionPayload columnDefinition) in /_/src/MySqlConnector/Core/TextRow.cs:line 90
+   at MySqlConnector.Core.Row.GetValue(Int32 ordinal) in /_/src/MySqlConnector/Core/Row.cs:line 38
+   at MySqlConnector.Core.Row.GetDateTime(Int32 ordinal) in /_/src/MySqlConnector/Core/Row.cs:line 355
+   at MySqlConnector.MySqlDataReader.GetDateTime(Int32 ordinal) in /_/src/MySqlConnector/MySqlDataReader.cs:line 261
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.BufferedDataRecord.ReadDateTime(DbDataReader reader, Int32 ordinal, ReaderColumn column)
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.BufferedDataRecord.ReadRow()
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.BufferedDataRecord.InitializeAsync(DbDataReader reader, IReadOnlyList`1 columns, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.InitializeAsync(IReadOnlyList`1 columns, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.InitializeAsync(IReadOnlyList`1 columns, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Pan.Infrastructure.Extensions.QueryableExtensions.OrderAndPagedAsync[T](IQueryable`1 query, IPagedAndSortedModel request) in D:\Hongbo\Code\Pan\pan_\pan\Pan.Infrastructure\Extensions\QueryableExtensions.cs:line 22
+   at Pan.Domain.Handler.Post.PostHandler.Handle(PostRequest request, CancellationToken cancellationToken) in D:\Hongbo\Code\Pan\pan_\pan\Pan.Domain\Handler\Post\GetAll.cs:line 34
+   at Pan.Infrastructure.UnitOfWoks.TransactionBehavior`3.<>c__DisplayClass3_0.<<Handle>b__0>d.MoveNext() in D:\Hongbo\Code\Pan\pan_\pan\Pan.Infrastructure\UnitOfWoks\TransactionBehavior.cs:line 54
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c.<<ExecuteAsync>b__3_0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Pan.Infrastructure.UnitOfWoks.TransactionBehavior`3.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next) in D:\Hongbo\Code\Pan\pan_\pan\Pan.Infrastructure\UnitOfWoks\TransactionBehavior.cs:line 45
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestExceptionActionProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at pan.web.Controllers.PostController.Login(PostRequest request) in D:\Hongbo\Code\Pan\pan_\pan\pan.web\Controllers\PostController.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at pan.web.MiddleWares.ExceptionMiddleware.Invoke(HttpContext httpContext) in D:\Hongbo\Code\Pan\pan_\pan\pan.web\MiddleWares\ExceptionMiddleware.cs:line 29
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.Invoke(HttpContext context)
+   at pan.web.MiddleWares.TokenParseMiddleware.Invoke(HttpContext httpContext) in D:\Hongbo\Code\Pan\pan_\pan\pan.web\MiddleWares\TokenParseMiddleware.cs:line 34
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-12-22 15:06:54.564 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/Post/Login?Sorting=1&SkipCount=50 - - - 500 - text/plain 8639.5124ms
+2021-12-22 15:14:18.301 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Post/Login?Sorting=1&SkipCount=50 - -
+2021-12-22 15:14:18.402 +08:00 [INF] Executing endpoint 'pan.web.Controllers.PostController.Login (pan.web)'
+2021-12-22 15:14:18.413 +08:00 [INF] Route matched with {action = "Login", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Pan.Domain.Handler.Post.PostRequest) on controller pan.web.Controllers.PostController (pan.web).
+2021-12-22 15:14:18.544 +08:00 [INF] ----- 开始事务 "b8bf07a1-f057-4c9b-b738-61cd4869d752" ()
+2021-12-22 15:14:18.685 +08:00 [INF] ----- 提交事务 "b8bf07a1-f057-4c9b-b738-61cd4869d752" 
+2021-12-22 15:14:18.781 +08:00 [INF] Executing JsonResult, writing value of type 'Pan.Domain.Model.Common.ResponseValue`1[[Pan.Domain.Model.Common.PagedResultDto`1[[Pan.Domain.Handler.Post.PostItmes, Pan.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Pan.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-22 15:14:19.354 +08:00 [INF] Executed action pan.web.Controllers.PostController.Login (pan.web) in 935.8138ms
+2021-12-22 15:14:19.358 +08:00 [INF] Executed endpoint 'pan.web.Controllers.PostController.Login (pan.web)'
+2021-12-22 15:14:19.364 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/Post/Login?Sorting=1&SkipCount=50 - - - 200 - application/json;+charset=utf-8 1062.5032ms
+2021-12-22 15:16:42.329 +08:00 [INF] application start
+2021-12-22 15:16:53.493 +08:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-12-22 15:16:55.903 +08:00 [INF] Now listening on: http://[::]:5000
+2021-12-22 15:16:55.905 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-22 15:16:55.908 +08:00 [INF] Hosting environment: Development
+2021-12-22 15:16:55.910 +08:00 [INF] Content root path: D:\Hongbo\Code\Pan\pan_\pan\pan.web
+2021-12-22 15:18:07.704 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Post/Login?Sorting=1&SkipCount=50 - -
+2021-12-22 15:18:08.702 +08:00 [INF] Executing endpoint 'pan.web.Controllers.PostController.Login (pan.web)'
+2021-12-22 15:18:08.819 +08:00 [INF] Route matched with {action = "Login", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Pan.Domain.Handler.Post.PostRequest) on controller pan.web.Controllers.PostController (pan.web).
+2021-12-22 15:18:10.436 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2021-12-22 15:18:10.577 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 136.3162ms
+2021-12-22 15:18:11.155 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2021-12-22 15:18:11.826 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 671.1605ms
+2021-12-22 15:18:24.253 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Post/Login?Keyword=go&Sorting=1&SkipCount=50 - -
+2021-12-22 15:19:35.796 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2021-12-22 15:21:23.328 +08:00 [INF] ----- 开始事务 "2bc810a0-784e-4d95-b5fc-2e6446675d4a" ()
+2021-12-22 15:21:23.361 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 107563.9871ms
+2021-12-22 15:21:23.361 +08:00 [INF] Executing endpoint 'pan.web.Controllers.PostController.Login (pan.web)'
+2021-12-22 15:21:23.444 +08:00 [INF] Route matched with {action = "Login", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Pan.Domain.Handler.Post.PostRequest) on controller pan.web.Controllers.PostController (pan.web).
+2021-12-22 15:21:24.275 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2021-12-22 15:21:24.287 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 11.4381ms
+2021-12-22 15:21:24.304 +08:00 [INF] ----- 开始事务 "8dacd2a7-3d86-4024-87ce-2ae6ca1ca200" ()
+2021-12-22 15:21:25.378 +08:00 [INF] ----- 提交事务 "8dacd2a7-3d86-4024-87ce-2ae6ca1ca200" 
+2021-12-22 15:21:25.379 +08:00 [INF] ----- 提交事务 "2bc810a0-784e-4d95-b5fc-2e6446675d4a" 
+2021-12-22 15:21:25.457 +08:00 [INF] Executing JsonResult, writing value of type 'Pan.Domain.Model.Common.ResponseValue`1[[Pan.Domain.Model.Common.PagedResultDto`1[[Pan.Domain.Handler.Post.PostItmes, Pan.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Pan.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-22 15:21:25.459 +08:00 [INF] Executing JsonResult, writing value of type 'Pan.Domain.Model.Common.ResponseValue`1[[Pan.Domain.Model.Common.PagedResultDto`1[[Pan.Domain.Handler.Post.PostItmes, Pan.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Pan.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-22 15:21:25.710 +08:00 [INF] Executed action pan.web.Controllers.PostController.Login (pan.web) in 196881.0448ms
+2021-12-22 15:21:25.713 +08:00 [INF] Executed endpoint 'pan.web.Controllers.PostController.Login (pan.web)'
+2021-12-22 15:21:25.721 +08:00 [INF] Executed action pan.web.Controllers.PostController.Login (pan.web) in 2273.0149ms
+2021-12-22 15:21:25.726 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/Post/Login?Sorting=1&SkipCount=50 - - - 200 - application/json;+charset=utf-8 198025.0923ms
+2021-12-22 15:21:25.729 +08:00 [INF] Executed endpoint 'pan.web.Controllers.PostController.Login (pan.web)'
+2021-12-22 15:21:25.734 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/Post/Login?Keyword=go&Sorting=1&SkipCount=50 - - - 200 - application/json;+charset=utf-8 181480.3089ms
+2021-12-22 15:21:37.231 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Post/Login?Keyword=go%E8%AF%AD%E8%A8%80&Sorting=1&SkipCount=50 - -
+2021-12-22 15:21:37.250 +08:00 [INF] Executing endpoint 'pan.web.Controllers.PostController.Login (pan.web)'
+2021-12-22 15:21:37.254 +08:00 [INF] Route matched with {action = "Login", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Pan.Domain.Handler.Post.PostRequest) on controller pan.web.Controllers.PostController (pan.web).
+2021-12-22 15:21:37.391 +08:00 [INF] ----- 开始事务 "58076027-846a-486f-8a89-efc65f95cfcc" ()
+2021-12-22 15:21:37.682 +08:00 [INF] ----- 提交事务 "58076027-846a-486f-8a89-efc65f95cfcc" 
+2021-12-22 15:21:37.703 +08:00 [INF] Executing JsonResult, writing value of type 'Pan.Domain.Model.Common.ResponseValue`1[[Pan.Domain.Model.Common.PagedResultDto`1[[Pan.Domain.Handler.Post.PostItmes, Pan.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Pan.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-22 15:21:37.707 +08:00 [INF] Executed action pan.web.Controllers.PostController.Login (pan.web) in 441.9261ms
+2021-12-22 15:21:37.715 +08:00 [INF] Executed endpoint 'pan.web.Controllers.PostController.Login (pan.web)'
+2021-12-22 15:21:37.718 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/Post/Login?Keyword=go%E8%AF%AD%E8%A8%80&Sorting=1&SkipCount=50 - - - 200 - application/json;+charset=utf-8 488.9172ms
+2021-12-22 15:21:42.373 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Post/Login?Keyword=go&Sorting=1&SkipCount=50 - -
+2021-12-22 15:21:42.383 +08:00 [INF] Executing endpoint 'pan.web.Controllers.PostController.Login (pan.web)'
+2021-12-22 15:21:42.390 +08:00 [INF] Route matched with {action = "Login", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Pan.Domain.Handler.Post.PostRequest) on controller pan.web.Controllers.PostController (pan.web).
+2021-12-22 15:21:42.457 +08:00 [INF] ----- 开始事务 "ab911b58-1e13-4df2-888d-913b87bf148e" ()
+2021-12-22 15:21:42.667 +08:00 [INF] ----- 提交事务 "ab911b58-1e13-4df2-888d-913b87bf148e" 
+2021-12-22 15:21:42.695 +08:00 [INF] Executing JsonResult, writing value of type 'Pan.Domain.Model.Common.ResponseValue`1[[Pan.Domain.Model.Common.PagedResultDto`1[[Pan.Domain.Handler.Post.PostItmes, Pan.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Pan.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-12-22 15:21:42.737 +08:00 [INF] Executed action pan.web.Controllers.PostController.Login (pan.web) in 335.5307ms
+2021-12-22 15:21:42.745 +08:00 [INF] Executed endpoint 'pan.web.Controllers.PostController.Login (pan.web)'
+2021-12-22 15:21:42.748 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/Post/Login?Keyword=go&Sorting=1&SkipCount=50 - - - 200 - application/json;+charset=utf-8 374.8681ms
