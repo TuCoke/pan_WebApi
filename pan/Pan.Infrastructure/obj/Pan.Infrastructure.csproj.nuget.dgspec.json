@@ -1,25 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\Pan.Infrastructure\\Pan.Infrastructure.csproj": {}
+    "D:\\27641\\Documents\\pan\\pan\\Pan.Infrastructure\\Pan.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\Pan.Common\\Pan.Common.csproj": {
+    "D:\\27641\\Documents\\pan\\pan\\Pan.Common\\Pan.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\Pan.Common\\Pan.Common.csproj",
+        "projectUniqueName": "D:\\27641\\Documents\\pan\\pan\\Pan.Common\\Pan.Common.csproj",
         "projectName": "Pan.Common",
-        "projectPath": "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\Pan.Common\\Pan.Common.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\Pan.Common\\obj\\",
+        "projectPath": "D:\\27641\\Documents\\pan\\pan\\Pan.Common\\Pan.Common.csproj",
+        "packagesPath": "C:\\Users\\27641\\.nuget\\packages\\",
+        "outputPath": "D:\\27641\\Documents\\pan\\pan\\Pan.Common\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\27641\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,8 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.myget.org/F/zeekoget/api/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -70,31 +64,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "linux-arm": {
-          "#import": []
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\Pan.Infrastructure\\Pan.Infrastructure.csproj": {
+    "D:\\27641\\Documents\\pan\\pan\\Pan.Infrastructure\\Pan.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\Pan.Infrastructure\\Pan.Infrastructure.csproj",
+        "projectUniqueName": "D:\\27641\\Documents\\pan\\pan\\Pan.Infrastructure\\Pan.Infrastructure.csproj",
         "projectName": "Pan.Infrastructure",
-        "projectPath": "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\Pan.Infrastructure\\Pan.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\Pan.Infrastructure\\obj\\",
+        "projectPath": "D:\\27641\\Documents\\pan\\pan\\Pan.Infrastructure\\Pan.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\27641\\.nuget\\packages\\",
+        "outputPath": "D:\\27641\\Documents\\pan\\pan\\Pan.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\27641\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -102,15 +86,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.myget.org/F/zeekoget/api/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\Pan.Common\\Pan.Common.csproj": {
-                "projectPath": "D:\\Hongbo\\Code\\Pan\\pan_\\pan\\Pan.Common\\Pan.Common.csproj"
+              "D:\\27641\\Documents\\pan\\pan\\Pan.Common\\Pan.Common.csproj": {
+                "projectPath": "D:\\27641\\Documents\\pan\\pan\\Pan.Common\\Pan.Common.csproj"
               }
             }
           }
@@ -163,12 +146,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "linux-arm": {
-          "#import": []
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
