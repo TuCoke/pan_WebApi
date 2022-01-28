@@ -10,3 +10,15 @@ D:\Hongbo\Code\Pan\pan_\pan\Pan.Common\obj\Release\net5.0\Pan.Common.csproj.Core
 D:\Hongbo\Code\Pan\pan_\pan\Pan.Common\obj\Release\net5.0\Pan.Common.dll
 D:\Hongbo\Code\Pan\pan_\pan\Pan.Common\obj\Release\net5.0\ref\Pan.Common.dll
 D:\Hongbo\Code\Pan\pan_\pan\Pan.Common\obj\Release\net5.0\Pan.Common.pdb
+D:\27641\Documents\pan\pan\Pan.Common\bin\Release\net5.0\Pan.Common.deps.json
+D:\27641\Documents\pan\pan\Pan.Common\bin\Release\net5.0\Pan.Common.dll
+D:\27641\Documents\pan\pan\Pan.Common\bin\Release\net5.0\ref\Pan.Common.dll
+D:\27641\Documents\pan\pan\Pan.Common\bin\Release\net5.0\Pan.Common.pdb
+D:\27641\Documents\pan\pan\Pan.Common\obj\Release\net5.0\Pan.Common.csproj.AssemblyReference.cache
+D:\27641\Documents\pan\pan\Pan.Common\obj\Release\net5.0\Pan.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\27641\Documents\pan\pan\Pan.Common\obj\Release\net5.0\Pan.Common.AssemblyInfoInputs.cache
+D:\27641\Documents\pan\pan\Pan.Common\obj\Release\net5.0\Pan.Common.AssemblyInfo.cs
+D:\27641\Documents\pan\pan\Pan.Common\obj\Release\net5.0\Pan.Common.csproj.CoreCompileInputs.cache
+D:\27641\Documents\pan\pan\Pan.Common\obj\Release\net5.0\Pan.Common.dll
+D:\27641\Documents\pan\pan\Pan.Common\obj\Release\net5.0\ref\Pan.Common.dll
+D:\27641\Documents\pan\pan\Pan.Common\obj\Release\net5.0\Pan.Common.pdb

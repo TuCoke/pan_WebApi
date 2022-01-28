@@ -48,6 +48,7 @@ namespace pan.web
 			services.AddTransient(typeof(IRepository<>), typeof(Repository<>));
 			services.RegistEntityChangeManager();
 
+			services.AddTransient<IHttpContextAccessor, HttpContextAccessor>();
 			services
 				.AddControllersWithViews((options) =>
 				{
@@ -106,6 +107,7 @@ namespace pan.web
 			app.UseRouting();
 			app.UseAuthentication();
 			app.UseAuthorization();
+			app.UserLimitMiddeware();
 			app.UseTokenParseMiddleware();
 			app.UseResponseCompression();
 			app.UseExceptionMiddleware();
