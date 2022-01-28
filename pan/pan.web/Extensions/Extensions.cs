@@ -16,7 +16,7 @@ namespace pan.web.Extensions
 
 		public static void AddSwagger(this IServiceCollection services)
 		{
-			if (Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") != "Development") return;
+			//if (Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") != "Development") return;
 			services.AddSwaggerGen(options =>
 			{
 				options.CustomSchemaIds(type => type.FullName);
