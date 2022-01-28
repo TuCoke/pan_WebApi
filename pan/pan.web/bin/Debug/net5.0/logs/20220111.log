@@ -1,6 +1,0 @@
-2022-01-11 17:15:48.783 +08:00 [INF] application start
-2022-01-11 17:16:05.474 +08:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
-2022-01-11 17:16:09.908 +08:00 [INF] Now listening on: http://[::]:5000
-2022-01-11 17:16:09.931 +08:00 [INF] Application started. Press Ctrl+C to shut down.
-2022-01-11 17:16:09.932 +08:00 [INF] Hosting environment: Development
-2022-01-11 17:16:09.933 +08:00 [INF] Content root path: D:\Hongbo\Code\Pan\pan_\pan\pan.web
