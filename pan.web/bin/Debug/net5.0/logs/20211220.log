@@ -1,0 +1,38 @@
+2021-12-20 15:49:08.158 +08:00 [INF] application start
+2021-12-20 15:49:17.885 +08:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-12-20 15:49:19.709 +08:00 [INF] Now listening on: http://[::]:5000
+2021-12-20 15:49:19.717 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-20 15:49:19.719 +08:00 [INF] Hosting environment: Development
+2021-12-20 15:49:19.721 +08:00 [INF] Content root path: D:\Hongbo\Code\Pan\pan_\pan\pan.web
+2021-12-20 15:49:25.488 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-12-20 15:49:28.058 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 404 0 - 2585.5533ms
+2021-12-20 15:49:36.267 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger - -
+2021-12-20 15:49:36.357 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger - - - 301 0 - 56.5608ms
+2021-12-20 15:49:36.433 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2021-12-20 15:49:36.669 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 236.1133ms
+2021-12-20 15:49:36.788 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css - -
+2021-12-20 15:49:36.836 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js - -
+2021-12-20 15:49:36.836 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js - -
+2021-12-20 15:49:37.122 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-12-20 15:49:37.151 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-12-20 15:49:37.169 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css - - - 200 143632 text/css 380.8421ms
+2021-12-20 15:49:37.174 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 338.3552ms
+2021-12-20 15:49:37.237 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-12-20 15:49:37.285 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 448.5450ms
+2021-12-20 15:49:37.605 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2021-12-20 15:49:37.851 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/favicon-32x32.png - -
+2021-12-20 15:49:37.853 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-12-20 15:49:37.856 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/favicon-32x32.png - - - 200 628 image/png 5.0216ms
+2021-12-20 15:49:37.915 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 310.1116ms
+2021-12-20 17:05:40.830 +08:00 [INF] application start
+2021-12-20 17:05:48.526 +08:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-12-20 17:05:49.628 +08:00 [INF] Now listening on: http://[::]:5000
+2021-12-20 17:05:49.629 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-20 17:05:49.630 +08:00 [INF] Hosting environment: Development
+2021-12-20 17:05:49.631 +08:00 [INF] Content root path: D:\Hongbo\Code\Pan\pan_\pan\pan.web
+2021-12-20 17:05:54.332 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-12-20 17:05:55.707 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 404 0 - 1371.8652ms
+2021-12-20 17:06:03.782 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2021-12-20 17:06:03.898 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 116.4949ms
+2021-12-20 17:06:04.726 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2021-12-20 17:06:04.992 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 265.6923ms

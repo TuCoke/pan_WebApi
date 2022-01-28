@@ -1,0 +1,17 @@
+D:\Hongbo\Code\Pan\pan_\pan\Pan.Domain\bin\Debug\net5.0\Pan.Domain.deps.json
+D:\Hongbo\Code\Pan\pan_\pan\Pan.Domain\bin\Debug\net5.0\Pan.Domain.dll
+D:\Hongbo\Code\Pan\pan_\pan\Pan.Domain\bin\Debug\net5.0\ref\Pan.Domain.dll
+D:\Hongbo\Code\Pan\pan_\pan\Pan.Domain\bin\Debug\net5.0\Pan.Domain.pdb
+D:\Hongbo\Code\Pan\pan_\pan\Pan.Domain\bin\Debug\net5.0\Pan.Common.dll
+D:\Hongbo\Code\Pan\pan_\pan\Pan.Domain\bin\Debug\net5.0\Pan.Infrastructure.dll
+D:\Hongbo\Code\Pan\pan_\pan\Pan.Domain\bin\Debug\net5.0\Pan.Infrastructure.pdb
+D:\Hongbo\Code\Pan\pan_\pan\Pan.Domain\bin\Debug\net5.0\Pan.Common.pdb
+D:\Hongbo\Code\Pan\pan_\pan\Pan.Domain\obj\Debug\net5.0\Pan.Domain.csproj.AssemblyReference.cache
+D:\Hongbo\Code\Pan\pan_\pan\Pan.Domain\obj\Debug\net5.0\Pan.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Hongbo\Code\Pan\pan_\pan\Pan.Domain\obj\Debug\net5.0\Pan.Domain.AssemblyInfoInputs.cache
+D:\Hongbo\Code\Pan\pan_\pan\Pan.Domain\obj\Debug\net5.0\Pan.Domain.AssemblyInfo.cs
+D:\Hongbo\Code\Pan\pan_\pan\Pan.Domain\obj\Debug\net5.0\Pan.Domain.csproj.CoreCompileInputs.cache
+D:\Hongbo\Code\Pan\pan_\pan\Pan.Domain\obj\Debug\net5.0\Pan.Domain.csproj.CopyComplete
+D:\Hongbo\Code\Pan\pan_\pan\Pan.Domain\obj\Debug\net5.0\Pan.Domain.dll
+D:\Hongbo\Code\Pan\pan_\pan\Pan.Domain\obj\Debug\net5.0\ref\Pan.Domain.dll
+D:\Hongbo\Code\Pan\pan_\pan\Pan.Domain\obj\Debug\net5.0\Pan.Domain.pdb

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "9Hrz6GqYNH0cDXJMza55NwPaF8fRFvfWLcsU5fyotmjmp9yKTpksvByqDbGjjVVrUf99bn8S15hSvf/uvm7Mew==",
+  "success": true,
+  "projectFilePath": "D:\\Downloads\\Downloads_Edge\\pan\\pan\\Pan.Common\\Pan.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\27641\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\27641\\.nuget\\packages\\system.linq.dynamic.core\\1.2.14\\system.linq.dynamic.core.1.2.14.nupkg.sha512"
+  ],
+  "logs": []
+}
