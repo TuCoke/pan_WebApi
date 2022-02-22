@@ -1,0 +1,22 @@
+2022-02-18 08:59:23.152 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2022-02-18 08:59:28.787 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 5855.2898ms
+2022-02-18 08:59:38.012 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2022-02-18 08:59:39.057 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 983.3215ms
+2022-02-18 10:23:02.866 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Post/GetAll?Keyword=%E9%BB%91%E4%B8%9D - -
+2022-02-18 10:23:03.610 +08:00 [INF] Executing endpoint 'pan.web.Controllers.PostController.GetAll (pan.web)'
+2022-02-18 10:23:04.041 +08:00 [INF] Route matched with {action = "GetAll", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(Pan.Domain.Handler.Post.PostRequest) on controller pan.web.Controllers.PostController (pan.web).
+2022-02-18 10:23:07.274 +08:00 [INF] ----- 开始事务 "e5326a33-a24f-43cd-820f-8bd58c197f86" ()
+2022-02-18 10:23:09.890 +08:00 [INF] ----- 提交事务 "e5326a33-a24f-43cd-820f-8bd58c197f86" 
+2022-02-18 10:23:09.954 +08:00 [INF] Executing JsonResult, writing value of type 'Pan.Domain.Model.Common.ResponseValue`1[[Pan.Domain.Model.Common.PagedResultDto`1[[Pan.Domain.Handler.Post.PostItmes, Pan.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Pan.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-02-18 10:23:10.194 +08:00 [INF] Executed action pan.web.Controllers.PostController.GetAll (pan.web) in 6124.9959ms
+2022-02-18 10:23:10.262 +08:00 [INF] Executed endpoint 'pan.web.Controllers.PostController.GetAll (pan.web)'
+2022-02-18 10:23:10.463 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/Post/GetAll?Keyword=%E9%BB%91%E4%B8%9D - - - 200 - application/json;+charset=utf-8 7602.2261ms
+2022-02-18 10:24:01.565 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Post/GetAll?Keyword=%E9%BB%91%E4%B8%9D - -
+2022-02-18 10:24:01.632 +08:00 [INF] Executing endpoint 'pan.web.Controllers.PostController.GetAll (pan.web)'
+2022-02-18 10:24:01.636 +08:00 [INF] Route matched with {action = "GetAll", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(Pan.Domain.Handler.Post.PostRequest) on controller pan.web.Controllers.PostController (pan.web).
+2022-02-18 10:24:01.840 +08:00 [INF] ----- 开始事务 "dcc6e8ea-16fd-43c1-9184-f0a12b17d829" ()
+2022-02-18 10:24:03.174 +08:00 [INF] ----- 提交事务 "dcc6e8ea-16fd-43c1-9184-f0a12b17d829" 
+2022-02-18 10:24:03.188 +08:00 [INF] Executing JsonResult, writing value of type 'Pan.Domain.Model.Common.ResponseValue`1[[Pan.Domain.Model.Common.PagedResultDto`1[[Pan.Domain.Handler.Post.PostItmes, Pan.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Pan.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-02-18 10:24:03.203 +08:00 [INF] Executed action pan.web.Controllers.PostController.GetAll (pan.web) in 1551.4969ms
+2022-02-18 10:24:03.205 +08:00 [INF] Executed endpoint 'pan.web.Controllers.PostController.GetAll (pan.web)'
+2022-02-18 10:24:03.227 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/Post/GetAll?Keyword=%E9%BB%91%E4%B8%9D - - - 200 - application/json;+charset=utf-8 1661.8088ms

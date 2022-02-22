@@ -17,7 +17,6 @@ namespace Pan.Domain.Handler.Post
 {
     public class PostHandler : IRequestHandler<PostRequest, PagedResultDto<PostItmes>>
     {
-
         private readonly IRepository<post, int> _postRepository;
         private readonly IMapper _mapper;
 

@@ -1,0 +1,48 @@
+2022-02-11 11:25:41.279 +08:00 [INF] application start
+2022-02-11 11:26:02.111 +08:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-02-11 11:26:06.743 +08:00 [INF] Now listening on: http://[::]:5000
+2022-02-11 11:26:06.745 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-11 11:26:06.746 +08:00 [INF] Hosting environment: Development
+2022-02-11 11:26:06.747 +08:00 [INF] Content root path: D:\Hongbo\Code\Pan\pan_\pan\pan.web
+2022-02-11 11:26:53.943 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2022-02-11 11:26:54.794 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 883.9230ms
+2022-02-11 11:26:55.445 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2022-02-11 11:26:56.906 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1461.7331ms
+2022-02-11 11:27:26.342 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Admin/Login application/json-patch+json 41
+2022-02-11 11:27:26.360 +08:00 [INF] CORS policy execution successful.
+2022-02-11 11:27:27.632 +08:00 [INF] Executing endpoint 'pan.web.Controllers.AdminController.Login (pan.web)'
+2022-02-11 11:27:27.922 +08:00 [INF] Route matched with {action = "Login", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Pan.Domain.Handler.Accounts.AdminLoginRequest) on controller pan.web.Controllers.AdminController (pan.web).
+2022-02-11 11:27:31.900 +08:00 [INF] ----- 开始事务 "bb8f0a0f-ddcf-4f20-afb0-11e5b92e7b20" ()
+2022-02-11 11:27:34.536 +08:00 [ERR] 处理事务出错  ({"Account":"aa","Password":"aa","$type":"AdminLoginRequest"})
+Pan.Infrastructure.Exceptions.LogicException: Exception of type 'Pan.Infrastructure.Exceptions.LogicException' was thrown.
+   at Pan.Domain.Handler.Accounts.AdminLoginHandler.Handle(AdminLoginRequest request, CancellationToken cancellationToken) in D:\Hongbo\Code\Pan\pan_\pan\Pan.Domain\Handler\Accounts\AdminLogin.cs:line 39
+   at Pan.Infrastructure.UnitOfWoks.TransactionBehavior`3.<>c__DisplayClass3_0.<<Handle>b__0>d.MoveNext() in D:\Hongbo\Code\Pan\pan_\pan\Pan.Infrastructure\UnitOfWoks\TransactionBehavior.cs:line 54
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c.<<ExecuteAsync>b__3_0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Pan.Infrastructure.UnitOfWoks.TransactionBehavior`3.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next) in D:\Hongbo\Code\Pan\pan_\pan\Pan.Infrastructure\UnitOfWoks\TransactionBehavior.cs:line 45
+2022-02-11 11:27:35.650 +08:00 [INF] Executed action pan.web.Controllers.AdminController.Login (pan.web) in 7720.4596ms
+2022-02-11 11:27:35.665 +08:00 [INF] Executed endpoint 'pan.web.Controllers.AdminController.Login (pan.web)'
+2022-02-11 11:27:35.777 +08:00 [ERR] 用户请求发生错误：{"IsSuccess":true,"ErrorMsg":"登录失败：密码错误","Code":502,"Data":null}
+2022-02-11 11:27:36.172 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/Admin/Login application/json-patch+json 41 - 200 - application/json;+charset=utf-8 9830.9415ms
+2022-02-11 11:27:56.325 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Admin/Login application/json-patch+json 45
+2022-02-11 11:27:56.387 +08:00 [INF] CORS policy execution successful.
+2022-02-11 11:27:56.391 +08:00 [INF] Executing endpoint 'pan.web.Controllers.AdminController.Login (pan.web)'
+2022-02-11 11:27:56.393 +08:00 [INF] Route matched with {action = "Login", controller = "Admin"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Pan.Domain.Handler.Accounts.AdminLoginRequest) on controller pan.web.Controllers.AdminController (pan.web).
+2022-02-11 11:27:56.515 +08:00 [INF] ----- 开始事务 "9894f162-8a1a-47f1-a6ca-26488ff01190" ()
+2022-02-11 11:27:57.133 +08:00 [INF] ----- 提交事务 "9894f162-8a1a-47f1-a6ca-26488ff01190" 
+2022-02-11 11:27:57.341 +08:00 [INF] Executing JsonResult, writing value of type 'Pan.Domain.Model.Common.ResponseValue`1[[Pan.Domain.Handler.Accounts.AdminLoginResponse, Pan.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-02-11 11:27:57.358 +08:00 [INF] Executed action pan.web.Controllers.AdminController.Login (pan.web) in 962.5678ms
+2022-02-11 11:27:57.360 +08:00 [INF] Executed endpoint 'pan.web.Controllers.AdminController.Login (pan.web)'
+2022-02-11 11:27:57.366 +08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/Admin/Login application/json-patch+json 45 - 200 - application/json;+charset=utf-8 1045.3246ms
+2022-02-11 11:46:24.496 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Post/Login?Keyword=%E7%A7%BB%E5%8A%A8%E7%AB%AF%E6%9E%B6%E6%9E%84%E5%B8%88 - -
+2022-02-11 11:46:24.510 +08:00 [INF] Executing endpoint 'pan.web.Controllers.PostController.Login (pan.web)'
+2022-02-11 11:46:24.520 +08:00 [INF] Route matched with {action = "Login", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Pan.Domain.Handler.Post.PostRequest) on controller pan.web.Controllers.PostController (pan.web).
+2022-02-11 11:46:35.044 +08:00 [INF] ----- 开始事务 "c38d5761-6e45-4f14-a5dc-1b24f8dd8aa1" ()
+2022-02-11 11:46:35.881 +08:00 [INF] ----- 提交事务 "c38d5761-6e45-4f14-a5dc-1b24f8dd8aa1" 
+2022-02-11 11:46:35.939 +08:00 [INF] Executing JsonResult, writing value of type 'Pan.Domain.Model.Common.ResponseValue`1[[Pan.Domain.Model.Common.PagedResultDto`1[[Pan.Domain.Handler.Post.PostItmes, Pan.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Pan.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-02-11 11:46:35.953 +08:00 [INF] Executed action pan.web.Controllers.PostController.Login (pan.web) in 11429.4938ms
+2022-02-11 11:46:35.955 +08:00 [INF] Executed endpoint 'pan.web.Controllers.PostController.Login (pan.web)'
+2022-02-11 11:46:35.958 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/Post/Login?Keyword=%E7%A7%BB%E5%8A%A8%E7%AB%AF%E6%9E%B6%E6%9E%84%E5%B8%88 - - - 200 - application/json;+charset=utf-8 11462.3274ms

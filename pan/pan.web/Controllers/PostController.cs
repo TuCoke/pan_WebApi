@@ -16,12 +16,13 @@ namespace pan.web.Controllers
     {
         public PostController(IMediator mediator) : base(mediator)
         {
+
         }
 
         [HttpGet]
         [AllowAnonymous]
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(ResponseValue<PagedResultDto<PostItmes>>))]
-        public async Task<IActionResult> Login([FromQuery] PostRequest request)
+        public async Task<IActionResult> GetAll([FromQuery] PostRequest request)
         {
             var result = await _mediator.Send(request);
             return Json(new ResponseValue<PagedResultDto<PostItmes>>(result));

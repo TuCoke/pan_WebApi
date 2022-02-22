@@ -1,0 +1,37 @@
+2022-02-10 09:40:43.916 +08:00 [INF] application start
+2022-02-10 09:41:06.510 +08:00 [INF] User profile is available. Using 'C:\Users\admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-02-10 09:41:11.259 +08:00 [INF] Now listening on: http://[::]:5000
+2022-02-10 09:41:11.261 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-02-10 09:41:11.262 +08:00 [INF] Hosting environment: Development
+2022-02-10 09:41:11.264 +08:00 [INF] Content root path: D:\Hongbo\Code\Pan\pan_\pan\pan.web
+2022-02-10 09:46:35.232 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2022-02-10 09:46:36.208 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 1004.5297ms
+2022-02-10 09:46:36.343 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2022-02-10 09:46:38.173 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1829.5013ms
+2022-02-10 09:46:47.561 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Post/Login?Keyword=%20TypeScript - -
+2022-02-10 09:46:49.031 +08:00 [INF] Executing endpoint 'pan.web.Controllers.PostController.Login (pan.web)'
+2022-02-10 09:46:49.203 +08:00 [INF] Route matched with {action = "Login", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Pan.Domain.Handler.Post.PostRequest) on controller pan.web.Controllers.PostController (pan.web).
+2022-02-10 09:46:53.503 +08:00 [INF] ----- 开始事务 "270ba9e7-99db-49b8-9d58-0ad8350ee283" ()
+2022-02-10 09:46:55.914 +08:00 [INF] ----- 提交事务 "270ba9e7-99db-49b8-9d58-0ad8350ee283" 
+2022-02-10 09:46:55.972 +08:00 [INF] Executing JsonResult, writing value of type 'Pan.Domain.Model.Common.ResponseValue`1[[Pan.Domain.Model.Common.PagedResultDto`1[[Pan.Domain.Handler.Post.PostItmes, Pan.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Pan.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-02-10 09:46:56.182 +08:00 [INF] Executed action pan.web.Controllers.PostController.Login (pan.web) in 6971.4124ms
+2022-02-10 09:46:56.187 +08:00 [INF] Executed endpoint 'pan.web.Controllers.PostController.Login (pan.web)'
+2022-02-10 09:46:56.202 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/Post/Login?Keyword=%20TypeScript - - - 200 - application/json;+charset=utf-8 8641.2108ms
+2022-02-10 09:47:10.193 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Post/Login?Keyword=TypeScript - -
+2022-02-10 09:47:10.198 +08:00 [INF] Executing endpoint 'pan.web.Controllers.PostController.Login (pan.web)'
+2022-02-10 09:47:10.202 +08:00 [INF] Route matched with {action = "Login", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Pan.Domain.Handler.Post.PostRequest) on controller pan.web.Controllers.PostController (pan.web).
+2022-02-10 09:47:10.527 +08:00 [INF] ----- 开始事务 "b0d84c3f-7ce9-408e-b1df-a43bb5e1607a" ()
+2022-02-10 09:47:10.948 +08:00 [INF] ----- 提交事务 "b0d84c3f-7ce9-408e-b1df-a43bb5e1607a" 
+2022-02-10 09:47:10.997 +08:00 [INF] Executing JsonResult, writing value of type 'Pan.Domain.Model.Common.ResponseValue`1[[Pan.Domain.Model.Common.PagedResultDto`1[[Pan.Domain.Handler.Post.PostItmes, Pan.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Pan.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-02-10 09:47:11.006 +08:00 [INF] Executed action pan.web.Controllers.PostController.Login (pan.web) in 800.0232ms
+2022-02-10 09:47:11.008 +08:00 [INF] Executed endpoint 'pan.web.Controllers.PostController.Login (pan.web)'
+2022-02-10 09:47:11.015 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/Post/Login?Keyword=TypeScript - - - 200 - application/json;+charset=utf-8 821.8296ms
+2022-02-10 09:50:59.983 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Post/Login?Keyword=Ts - -
+2022-02-10 09:51:00.032 +08:00 [INF] Executing endpoint 'pan.web.Controllers.PostController.Login (pan.web)'
+2022-02-10 09:51:00.035 +08:00 [INF] Route matched with {action = "Login", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Pan.Domain.Handler.Post.PostRequest) on controller pan.web.Controllers.PostController (pan.web).
+2022-02-10 09:51:00.199 +08:00 [INF] ----- 开始事务 "af82dd3d-4800-40da-be89-1438b6860df5" ()
+2022-02-10 09:51:00.472 +08:00 [INF] ----- 提交事务 "af82dd3d-4800-40da-be89-1438b6860df5" 
+2022-02-10 09:51:00.554 +08:00 [INF] Executing JsonResult, writing value of type 'Pan.Domain.Model.Common.ResponseValue`1[[Pan.Domain.Model.Common.PagedResultDto`1[[Pan.Domain.Handler.Post.PostItmes, Pan.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Pan.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-02-10 09:51:00.579 +08:00 [INF] Executed action pan.web.Controllers.PostController.Login (pan.web) in 541.205ms
+2022-02-10 09:51:00.588 +08:00 [INF] Executed endpoint 'pan.web.Controllers.PostController.Login (pan.web)'
+2022-02-10 09:51:00.601 +08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/Post/Login?Keyword=Ts - - - 200 - application/json;+charset=utf-8 617.9651ms
